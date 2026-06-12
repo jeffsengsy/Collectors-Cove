@@ -74,20 +74,23 @@ export default function EventsPage() {
             {weeklyEvents.map((event, i) => (
               <div
                 key={event.id}
-                className={`flex items-center justify-between px-6 py-5 gap-4 ${
+                className={`px-6 py-5 ${
                   i < weeklyEvents.length - 1 ? "border-b border-white/5" : ""
                 }`}
               >
-                <div className="flex items-center gap-4">
-                  <span
-                    className="text-[#22d3ee] font-bold text-sm w-24 shrink-0"
-                    style={{ fontFamily: HEADING_FONT }}
-                  >
-                    {event.day}
-                  </span>
-                  <span className="text-white font-medium">{event.title}</span>
+                <div className="flex items-center justify-between gap-4 mb-1">
+                  <div className="flex items-center gap-4">
+                    <span
+                      className="text-[#22d3ee] font-bold text-sm w-24 shrink-0"
+                      style={{ fontFamily: HEADING_FONT }}
+                    >
+                      {event.day}
+                    </span>
+                    <span className="text-white font-medium">{event.title}</span>
+                  </div>
+                  <span className="text-gray-400 text-sm shrink-0">{event.time}</span>
                 </div>
-                <span className="text-gray-400 text-sm shrink-0">{event.time}</span>
+                <p className="text-gray-500 text-sm leading-relaxed pl-28">{event.description}</p>
               </div>
             ))}
           </div>

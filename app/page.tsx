@@ -212,7 +212,7 @@ export default function Home() {
           </h1>
 
           <p className="text-gray-300 text-xl sm:text-2xl max-w-2xl mx-auto mb-12 leading-relaxed">
-            Your destination for trading cards, collectibles,
+            Your 20,000&nbsp;sq&nbsp;ft destination for trading cards, collectibles,
             video games, and more — all under one roof.
           </p>
 
