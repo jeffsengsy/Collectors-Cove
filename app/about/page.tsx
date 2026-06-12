@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import ContactForm from "@/components/ContactForm";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About — Collector's Cove",
@@ -134,15 +134,18 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* Contact form */}
-        <div className="bg-[#0d1220] border border-white/10 rounded-2xl p-8">
-          <h2 className="text-white font-bold text-2xl mb-2">Get in Touch</h2>
+        {/* Contact CTA */}
+        <div className="bg-[#0d1220] border border-[#22d3ee]/20 rounded-2xl p-8 text-center">
+          <h2 className="text-white font-bold text-2xl mb-2">Have a Question?</h2>
           <p className="text-gray-400 text-sm mb-6">
-            Have a question or vendor inquiry? Fill out the form and we&apos;ll get
-            back to you via Instagram DM or stop by the shop in person.
+            Vendor inquiries, selling a collection, or just want to say hi — reach out and we&apos;ll get back to you.
           </p>
-
-          <ContactForm />
+          <Link
+            href="/contact"
+            className="inline-flex items-center gap-2 bg-[#22d3ee] text-[#0a0e1a] font-bold px-8 py-3.5 rounded-full hover:bg-cyan-300 transition-colors duration-200 cursor-pointer"
+          >
+            Contact Us
+          </Link>
         </div>
       </div>
     </div>
