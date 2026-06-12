@@ -278,7 +278,7 @@ export default function Home() {
           {[
             { value: "100+", label: "Vendors", sub: "Independent sellers" },
             { value: "Weekly", label: "Giveaways", sub: "Every Friday on Instagram" },
-            { value: "Monthly", label: "Card Shows", sub: "Last Saturday of the month" },
+            { value: "Monthly", label: "Card Shows", sub: "End of every month" },
           ].map((s) => (
             <div
               key={s.label}
@@ -358,7 +358,7 @@ export default function Home() {
                   style={{ color: "#EAB308", background: "rgba(234,179,8,0.12)", border: "1px solid rgba(234,179,8,0.3)" }}
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-yellow-400 animate-pulse" />
-                  Last Saturday of Every Month
+                  End of Every Month
                 </span>
 
                 <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-2 leading-none" style={{ fontFamily: HEADING_FONT }}>

@@ -108,7 +108,7 @@ export default function AboutPage() {
             <p>
               Collector&apos;s Cove was built around a simple idea: give hobby
               enthusiasts a single place to find everything they love. With over
-              20,000 square feet of floor space and 8+ independent vendors,
+              20,000 square feet of floor space and 100+ independent vendors,
               there&apos;s always something new to discover on every visit.
             </p>
             <p>
