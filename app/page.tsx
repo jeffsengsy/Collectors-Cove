@@ -156,15 +156,12 @@ export default function Home() {
   return (
     <div className="bg-[#0a0e1a] overflow-x-hidden">
       {/* ── HERO ── */}
-      <section className="relative min-h-[92vh] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-24 text-center overflow-hidden">
-        {/* Mural — CSS background so it sits naturally behind all content */}
+      <section className="relative min-h-[85vh] sm:min-h-[92vh] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-16 sm:py-24 text-center overflow-hidden">
+        {/* Mural — backgroundImage inline so Next.js always resolves the public path;
+             .hero-mural-bg handles responsive size/position via globals.css */}
         <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage: 'url("/images/store/mural.webp")',
-            backgroundSize: "cover",
-            backgroundPosition: "50% 45%",
-          }}
+          className="absolute inset-0 hero-mural-bg"
+          style={{ backgroundImage: 'url("/images/store/mural.webp")' }}
         />
         {/* Semi-transparent dark overlay */}
         <div
@@ -198,13 +195,13 @@ export default function Home() {
           </p>
 
           <h1
-            className="text-6xl sm:text-8xl lg:text-[9rem] font-extrabold tracking-tight leading-none text-white mb-2"
+            className="text-5xl sm:text-8xl lg:text-[9rem] font-extrabold tracking-tight leading-none text-white mb-2"
             style={{ fontFamily: HEADING_FONT, textShadow: "0 0 80px rgba(34,211,238,0.18)" }}
           >
             Collector&apos;s
           </h1>
           <h1
-            className="text-6xl sm:text-8xl lg:text-[9rem] font-extrabold tracking-tight leading-none mb-10"
+            className="text-5xl sm:text-8xl lg:text-[9rem] font-extrabold tracking-tight leading-none mb-8 sm:mb-10"
             style={{
               fontFamily: HEADING_FONT,
               color: "#22d3ee",

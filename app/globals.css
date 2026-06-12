@@ -71,3 +71,18 @@ body {
     grid-auto-rows: 240px;
   }
 }
+
+/* Hero mural — background-image is set via inline style in JSX (reliable in Next.js).
+   This class only controls responsive size and position. */
+.hero-mural-bg {
+  background-size: cover;
+  background-position: 50% 45%;
+}
+
+@media (max-width: 639px) {
+  .hero-mural-bg {
+    background-size: auto 65%;
+    background-position: 35% 40%;
+    background-repeat: no-repeat;
+  }
+}
