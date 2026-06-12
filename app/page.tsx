@@ -142,12 +142,11 @@ function formatDate(dateStr: string) {
 }
 
 const eventBadge: Record<string, string> = {
-  Tournament:
-    "bg-[#7c3aed]/20 text-purple-300 border border-purple-500/30",
-  "Casual Play":
-    "bg-[#22d3ee]/10 text-cyan-300 border border-cyan-500/30",
-  "Giveaway Event":
-    "bg-rose-500/10 text-rose-300 border border-rose-500/30",
+  Tournament:      "bg-[#7c3aed]/20 text-purple-300 border border-purple-500/30",
+  "Casual Play":   "bg-[#22d3ee]/10 text-cyan-300 border border-cyan-500/30",
+  "Giveaway Event":"bg-rose-500/10 text-rose-300 border border-rose-500/30",
+  "Weekly Locals": "bg-[#22d3ee]/10 text-cyan-300 border border-cyan-500/30",
+  "Card Show":     "bg-[#EAB308]/10 text-yellow-400 border border-yellow-400/30",
 };
 
 const HEADING_FONT = "var(--font-russo), sans-serif";

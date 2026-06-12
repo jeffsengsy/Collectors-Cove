@@ -1,38 +1,47 @@
 [
   {
     "id": 1,
-    "title": "Pokémon TCG Saturday Showdown",
-    "date": "2026-06-20",
-    "time": "11:00 AM",
-    "type": "Tournament",
-    "description": "Weekly Standard format Pokémon TCG tournament open to all skill levels. Entry fee is $10 with store credit prizes for top 4 finishers. Registration starts at 10:30 AM.",
+    "title": "One Piece Locals",
+    "date": "2026-06-13",
+    "time": "7:00 PM",
+    "type": "Weekly Locals",
+    "description": "Weekly One Piece TCG locals every Friday at 7:00 PM. All skill levels welcome — come test your deck and meet the local community.",
     "location": "Collector's Cove — Main Floor"
   },
   {
     "id": 2,
-    "title": "Magic: The Gathering Commander Night",
-    "date": "2026-06-25",
-    "time": "6:00 PM",
-    "type": "Casual Play",
-    "description": "Bring your Commander deck and battle it out in free casual pods. All power levels welcome. A great way to meet the local MTG community and test new builds.",
-    "location": "Collector's Cove — Game Room"
+    "title": "Lorcana Locals",
+    "date": "2026-06-17",
+    "time": "7:00 PM",
+    "type": "Weekly Locals",
+    "description": "Weekly Lorcana locals every Tuesday at 7:00 PM. Bring your deck and battle it out with fellow Illumineers of all skill levels.",
+    "location": "Collector's Cove — Main Floor"
   },
   {
     "id": 3,
-    "title": "Sports Card Rip Night & Giveaway",
-    "date": "2026-07-04",
-    "time": "2:00 PM",
-    "type": "Giveaway Event",
-    "description": "Independence Day special — group box breaks featuring NFL and NBA products. Follow @thecollectorscove on Instagram and tag a friend for a chance to win a free pack.",
+    "title": "Pokémon Locals",
+    "date": "2026-06-18",
+    "time": "7:00 PM",
+    "type": "Weekly Locals",
+    "description": "Weekly Pokémon TCG locals every Wednesday at 7:00 PM. Open to all formats and skill levels — from beginners to competitive players.",
     "location": "Collector's Cove — Main Floor"
   },
   {
     "id": 4,
-    "title": "One Piece TCG Locals",
-    "date": "2026-07-11",
-    "time": "1:00 PM",
-    "type": "Tournament",
-    "description": "Official One Piece TCG local tournament with Championship Series points on the line. Constructed format, 50-card decks. Prizes include booster boxes and exclusive promo cards.",
+    "title": "RiftBound Locals",
+    "date": "2026-06-19",
+    "time": "7:00 PM",
+    "type": "Weekly Locals",
+    "description": "Weekly RiftBound locals every Thursday at 7:00 PM. Jump in and play with the local community — all skill levels welcome.",
+    "location": "Collector's Cove — Main Floor"
+  },
+  {
+    "id": 5,
+    "title": "Monthly Card Show",
+    "date": "2026-06-28",
+    "time": "12:00 PM",
+    "type": "Card Show",
+    "description": "The biggest event of the month. 100+ vendors on the floor buying, selling, and trading. First 400 attendees get a free goodie bag — 40 Golden Tickets hidden inside with grand prizes. Past winners have taken home a Nintendo Switch 2.",
     "location": "Collector's Cove — Main Floor"
   }
 ]

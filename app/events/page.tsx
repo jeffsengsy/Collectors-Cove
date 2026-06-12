@@ -8,9 +8,11 @@ export const metadata: Metadata = {
 };
 
 const typeColors: Record<string, string> = {
-  Tournament: "text-yellow-400 bg-yellow-400/10 border-yellow-400/30",
-  "Casual Play": "text-green-400 bg-green-400/10 border-green-400/30",
-  "Giveaway Event": "text-pink-400 bg-pink-400/10 border-pink-400/30",
+  Tournament:      "text-yellow-400 bg-yellow-400/10 border-yellow-400/30",
+  "Casual Play":   "text-green-400 bg-green-400/10 border-green-400/30",
+  "Giveaway Event":"text-pink-400 bg-pink-400/10 border-pink-400/30",
+  "Weekly Locals": "text-cyan-300 bg-cyan-400/10 border-cyan-400/30",
+  "Card Show":     "text-yellow-400 bg-yellow-400/10 border-yellow-400/30",
 };
 
 function formatDate(dateStr: string): string {
