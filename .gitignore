@@ -36,6 +36,12 @@ yarn-error.log*
 # vercel
 .vercel
 
+# claude code
+.claude/
+
+# source photo originals (public/images is used instead)
+/photos/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Pokémon TCG",
+    "emoji": "⚡",
+    "slug": "pokemon-tcg",
+    "description": "Singles, sealed booster boxes, elite trainer boxes, tins, and vintage sets. From Base Set Charizards to the latest Scarlet & Violet expansions."
+  },
+  {
+    "id": 2,
+    "name": "One Piece TCG",
+    "emoji": "⚓",
+    "slug": "one-piece-tcg",
+    "description": "The fast-growing Bandai card game featuring your favorite Straw Hat pirates. Singles, booster boxes, and starter decks always in stock."
+  },
+  {
+    "id": 3,
+    "name": "Magic: The Gathering",
+    "emoji": "🔮",
+    "slug": "magic-the-gathering",
+    "description": "Commander staples, Modern playsets, Legacy power, and Reserved List gems. Draft boosters, Set boosters, and Collector boosters available."
+  },
+  {
+    "id": 4,
+    "name": "Sports Cards",
+    "emoji": "🏆",
+    "slug": "sports-cards",
+    "description": "NFL, NBA, MLB, and UFC cards including rookies, autographs, and patch cards. Raw singles and PSA/BGS graded slabs across all sports."
+  },
+  {
+    "id": 5,
+    "name": "Video Games",
+    "emoji": "🎮",
+    "slug": "video-games",
+    "description": "Retro classics and modern titles across every platform. NES, SNES, N64, PlayStation, Xbox, Switch, and more — loose, CIB, and sealed."
+  },
+  {
+    "id": 6,
+    "name": "Toys & Collectibles",
+    "emoji": "🧸",
+    "slug": "toys-collectibles",
+    "description": "Action figures, Funko Pops, LEGO sets, anime statues, die-cast vehicles, and limited-edition licensed merchandise from top franchises."
+  }
+]

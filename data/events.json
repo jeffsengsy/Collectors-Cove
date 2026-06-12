@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Pokémon TCG Saturday Showdown",
+    "date": "2026-06-20",
+    "time": "11:00 AM",
+    "type": "Tournament",
+    "description": "Weekly Standard format Pokémon TCG tournament open to all skill levels. Entry fee is $10 with store credit prizes for top 4 finishers. Registration starts at 10:30 AM.",
+    "location": "Collector's Cove — Main Floor"
+  },
+  {
+    "id": 2,
+    "title": "Magic: The Gathering Commander Night",
+    "date": "2026-06-25",
+    "time": "6:00 PM",
+    "type": "Casual Play",
+    "description": "Bring your Commander deck and battle it out in free casual pods. All power levels welcome. A great way to meet the local MTG community and test new builds.",
+    "location": "Collector's Cove — Game Room"
+  },
+  {
+    "id": 3,
+    "title": "Sports Card Rip Night & Giveaway",
+    "date": "2026-07-04",
+    "time": "2:00 PM",
+    "type": "Giveaway Event",
+    "description": "Independence Day special — group box breaks featuring NFL and NBA products. Follow @thecollectorscove on Instagram and tag a friend for a chance to win a free pack.",
+    "location": "Collector's Cove — Main Floor"
+  },
+  {
+    "id": 4,
+    "title": "One Piece TCG Locals",
+    "date": "2026-07-11",
+    "time": "1:00 PM",
+    "type": "Tournament",
+    "description": "Official One Piece TCG local tournament with Championship Series points on the line. Constructed format, 50-card decks. Prizes include booster boxes and exclusive promo cards.",
+    "location": "Collector's Cove — Main Floor"
+  }
+]

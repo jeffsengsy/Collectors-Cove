@@ -1,26 +1,73 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #0a0e1a;
+  --foreground: #ffffff;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes float-glow {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.04); }
+}
+
+@keyframes scroll-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(6px); }
+}
+
+@keyframes carousel-left {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes carousel-right {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animate-float-glow {
+    animation: float-glow 8s ease-in-out infinite;
+  }
+
+  .animate-scroll-bounce {
+    animation: scroll-bounce 2s ease-in-out infinite;
+  }
+
+  .carousel-left {
+    animation: carousel-left 30s linear infinite;
+    will-change: transform;
+  }
+
+  .carousel-right {
+    animation: carousel-right 35s linear infinite;
+    will-change: transform;
+  }
+
+  .carousel-left:hover,
+  .carousel-right:hover {
+    animation-play-state: paused;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float-glow,
+  .animate-scroll-bounce {
+    animation: none;
+  }
+}
+
+.gallery-grid {
+  grid-auto-rows: 180px;
+}
+
+@media (min-width: 768px) {
+  .gallery-grid {
+    grid-auto-rows: 240px;
+  }
 }
