@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "Munchlax Market",
+    "slug": "munchlax-market",
+    "logo": "/images/vendors/munchlax-market.png",
+    "specialty": "Pokémon TCG",
+    "bio": "Your go-to spot for Pokémon singles, sealed product, and graded cards. Buy, sell, or trade — Munchlax Market keeps it friendly and fair.",
+    "tags": ["Singles", "Sealed", "Graded", "Buy · Sell · Trade"]
+  }
+]

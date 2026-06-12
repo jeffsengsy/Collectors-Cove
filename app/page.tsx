@@ -216,7 +216,7 @@ export default function Home() {
           </h1>
 
           <p className="text-gray-300 text-xl sm:text-2xl max-w-2xl mx-auto mb-12 leading-relaxed">
-            Your 20,000&nbsp;sq&nbsp;ft destination for trading cards, collectibles,
+            Your destination for trading cards, collectibles,
             video games, and more — all under one roof.
           </p>
 
@@ -277,12 +277,11 @@ export default function Home() {
 
       {/* ── STATS ── */}
       <section className="px-4 sm:px-6 lg:px-8 py-10">
-        <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4">
           {[
-            { value: "8+", label: "Vendors", sub: "Independent sellers" },
-            { value: "20K", label: "Sq Ft", sub: "Retail floor space" },
-            { value: "6+", label: "Categories", sub: "Cards, games, toys" },
-            { value: "10.6K", label: "Followers", sub: "On Instagram" },
+            { value: "100+", label: "Vendors", sub: "Independent sellers" },
+            { value: "Weekly", label: "Giveaways", sub: "Every Friday on Instagram" },
+            { value: "Monthly", label: "Card Shows", sub: "Last Saturday of the month" },
           ].map((s) => (
             <div
               key={s.label}
@@ -723,7 +722,7 @@ export default function Home() {
                   className="text-2xl sm:text-3xl font-bold text-white mb-2"
                   style={{ fontFamily: HEADING_FONT }}
                 >
-                  8+ Independent Vendors
+                  100+ Independent Vendors
                 </h2>
                 <p className="text-gray-400 max-w-lg">
                   Every vendor brings their own expertise and inventory.
