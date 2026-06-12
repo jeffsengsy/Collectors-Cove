@@ -9,9 +9,11 @@ export const metadata: Metadata = {
 };
 
 const CATEGORY_LOGOS: Record<string, { src: string; whiteBg: boolean }> = {
-  "pokemon-tcg": { src: "/images/logos/pokemon-tcg.png", whiteBg: true },
-  "one-piece-tcg": { src: "/images/logos/one-piece-tcg.png", whiteBg: true },
-  "magic-the-gathering": { src: "/images/logos/magic-the-gathering.jpg", whiteBg: false },
+  "pokemon-tcg":       { src: "/images/logos/pokemon-tcg.png",       whiteBg: true },
+  "one-piece-tcg":     { src: "/images/logos/one-piece-tcg.png",     whiteBg: true },
+  "magic-the-gathering":{ src: "/images/logos/magic-the-gathering.jpg", whiteBg: false },
+  "lorcana":           { src: "/images/logos/lorcana.png",           whiteBg: true },
+  "riftbound":         { src: "/images/logos/riftbound.png",         whiteBg: true },
 };
 
 const HEADING_FONT = "var(--font-russo), sans-serif";

@@ -1,38 +1,42 @@
 [
   {
     "id": 1,
-    "title": "One Piece Locals",
-    "date": "2026-06-13",
-    "time": "7:00 PM",
-    "type": "Weekly Locals",
-    "description": "Weekly One Piece TCG locals every Friday at 7:00 PM. All skill levels welcome — come test your deck and meet the local community.",
-    "location": "Collector's Cove — Main Floor"
-  },
-  {
-    "id": 2,
     "title": "Lorcana Locals",
-    "date": "2026-06-17",
+    "day": "Tuesday",
     "time": "7:00 PM",
     "type": "Weekly Locals",
+    "recurring": true,
     "description": "Weekly Lorcana locals every Tuesday at 7:00 PM. Bring your deck and battle it out with fellow Illumineers of all skill levels.",
     "location": "Collector's Cove — Main Floor"
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Pokémon Locals",
-    "date": "2026-06-18",
+    "day": "Wednesday",
     "time": "7:00 PM",
     "type": "Weekly Locals",
-    "description": "Weekly Pokémon TCG locals every Wednesday at 7:00 PM. Open to all formats and skill levels — from beginners to competitive players.",
+    "recurring": true,
+    "description": "Weekly Pokémon TCG locals every Wednesday at 7:00 PM. Open to all formats and skill levels.",
+    "location": "Collector's Cove — Main Floor"
+  },
+  {
+    "id": 3,
+    "title": "RiftBound Locals",
+    "day": "Thursday",
+    "time": "7:00 PM",
+    "type": "Weekly Locals",
+    "recurring": true,
+    "description": "Weekly RiftBound locals every Thursday at 7:00 PM. All skill levels welcome.",
     "location": "Collector's Cove — Main Floor"
   },
   {
     "id": 4,
-    "title": "RiftBound Locals",
-    "date": "2026-06-19",
+    "title": "One Piece Locals",
+    "day": "Friday",
     "time": "7:00 PM",
     "type": "Weekly Locals",
-    "description": "Weekly RiftBound locals every Thursday at 7:00 PM. Jump in and play with the local community — all skill levels welcome.",
+    "recurring": true,
+    "description": "Weekly One Piece TCG locals every Friday at 7:00 PM. Come test your deck and meet the local community.",
     "location": "Collector's Cove — Main Floor"
   },
   {
@@ -41,6 +45,7 @@
     "date": "2026-06-28",
     "time": "12:00 PM",
     "type": "Card Show",
+    "recurring": false,
     "description": "The biggest event of the month. 100+ vendors on the floor buying, selling, and trading. First 400 attendees get a free goodie bag — 40 Golden Tickets hidden inside with grand prizes. Past winners have taken home a Nintendo Switch 2.",
     "location": "Collector's Cove — Main Floor"
   }

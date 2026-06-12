@@ -21,6 +21,20 @@
     "description": "Commander staples, Modern playsets, Legacy power, and Reserved List gems. Draft boosters, Set boosters, and Collector boosters available."
   },
   {
+    "id": 7,
+    "name": "Lorcana",
+    "emoji": "✨",
+    "slug": "lorcana",
+    "description": "Disney Lorcana singles, booster packs, and sealed product. Collect your favorite Disney characters and build your Illumineer deck."
+  },
+  {
+    "id": 8,
+    "name": "RiftBound",
+    "emoji": "⚔️",
+    "slug": "riftbound",
+    "description": "The newest TCG on the block. Singles, starter decks, and booster boxes for RiftBound — come in and learn how to play."
+  },
+  {
     "id": 4,
     "name": "Sports Cards",
     "emoji": "🏆",

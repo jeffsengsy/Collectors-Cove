@@ -1,14 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import categories from "@/data/categories.json";
-import events from "@/data/events.json";
 import reviews from "@/data/reviews.json";
 import PhotoCarousel from "@/components/PhotoCarousel";
 
 const CATEGORY_LOGOS: Record<string, { src: string; whiteBg: boolean }> = {
-  "pokemon-tcg": { src: "/images/logos/pokemon-tcg.png", whiteBg: true },
-  "one-piece-tcg": { src: "/images/logos/one-piece-tcg.png", whiteBg: true },
-  "magic-the-gathering": { src: "/images/logos/magic-the-gathering.jpg", whiteBg: false },
+  "pokemon-tcg":        { src: "/images/logos/pokemon-tcg.png",        whiteBg: true },
+  "one-piece-tcg":      { src: "/images/logos/one-piece-tcg.png",      whiteBg: true },
+  "magic-the-gathering":{ src: "/images/logos/magic-the-gathering.jpg", whiteBg: false },
+  "lorcana":            { src: "/images/logos/lorcana.png",            whiteBg: true },
+  "riftbound":          { src: "/images/logos/riftbound.png",          whiteBg: true },
 };
 
 function CategoryVisual({ slug, name }: { slug: string; name: string }) {
@@ -490,127 +490,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── WHAT WE CARRY ── */}
-      <section className="px-4 sm:px-6 lg:px-8 py-16">
-        <div className="max-w-6xl mx-auto">
-          <p className="text-[#22d3ee] text-xs font-semibold tracking-[0.3em] uppercase mb-2">
-            Browse the collection
-          </p>
-          <h2
-            className="text-3xl sm:text-4xl font-bold text-white mb-2"
-            style={{ fontFamily: HEADING_FONT }}
-          >
-            What We Carry
-          </h2>
-          <p className="text-gray-400 mb-10">
-            Something for every collector, trader, and gamer.
-          </p>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-            {categories.map((cat) => (
-              <Link
-                key={cat.id}
-                href="/categories"
-                className="group bg-[#0d1220] border border-white/10 hover:border-[#22d3ee]/60 rounded-2xl p-6 transition-all duration-300 hover:shadow-[0_0_30px_rgba(34,211,238,0.10)] cursor-pointer"
-              >
-                <CategoryVisual slug={cat.slug} name={cat.name} />
-                <h3 className="text-white font-bold text-lg mb-2 group-hover:text-[#22d3ee] transition-colors duration-200">
-                  {cat.name}
-                </h3>
-                <p className="text-gray-500 text-sm leading-relaxed line-clamp-3">
-                  {cat.description}
-                </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-[#22d3ee] text-xs font-semibold tracking-wider uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                  Browse <ArrowRight />
-                </span>
-              </Link>
-            ))}
-          </div>
-
-          <div className="mt-8 text-center">
-            <Link
-              href="/categories"
-              className="inline-flex items-center gap-2 border border-[#22d3ee]/40 text-[#22d3ee] text-sm font-semibold px-6 py-3 rounded-full hover:border-[#22d3ee] hover:bg-[#22d3ee]/10 transition-colors duration-200 cursor-pointer"
-            >
-              View All Categories <ArrowRight />
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ── UPCOMING EVENTS ── */}
-      <section className="px-4 sm:px-6 lg:px-8 py-16">
-        <div className="max-w-6xl mx-auto">
-          <p className="text-[#22d3ee] text-xs font-semibold tracking-[0.3em] uppercase mb-2">
-            Join the community
-          </p>
-          <h2
-            className="text-3xl sm:text-4xl font-bold text-white mb-2"
-            style={{ fontFamily: HEADING_FONT }}
-          >
-            Upcoming Events
-          </h2>
-          <p className="text-gray-400 mb-10">
-            Tournaments, casual play nights, and giveaways — open to all skill levels.
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {events.slice(0, 3).map((event) => (
-              <div
-                key={event.id}
-                className="bg-[#0d1220] border border-white/10 hover:border-[#22d3ee]/40 rounded-2xl p-6 transition-colors duration-200 flex flex-col"
-              >
-                <div className="flex items-center justify-between mb-4 gap-3">
-                  <span
-                    className={`text-xs font-semibold px-3 py-1 rounded-full whitespace-nowrap ${
-                      eventBadge[event.type] ?? "bg-white/10 text-gray-300"
-                    }`}
-                  >
-                    {event.type}
-                  </span>
-                  <span className="text-gray-600 text-xs shrink-0">
-                    {formatDate(event.date)}
-                  </span>
-                </div>
-                <h3 className="text-white font-bold text-lg leading-snug mb-2">
-                  {event.title}
-                </h3>
-                <p className="text-gray-500 text-sm leading-relaxed line-clamp-3 flex-1">
-                  {event.description}
-                </p>
-                <div className="mt-4 pt-4 border-t border-white/5 flex items-center gap-2 text-gray-600 text-xs">
-                  <svg
-                    width="12"
-                    height="12"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    aria-hidden="true"
-                  >
-                    <circle cx="12" cy="12" r="10" />
-                    <polyline points="12 6 12 12 16 14" />
-                  </svg>
-                  <span>{event.time}</span>
-                  <span className="ml-auto truncate">{event.location.replace("Collector's Cove — ", "")}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-8 text-center">
-            <Link
-              href="/events"
-              className="inline-flex items-center gap-2 border border-[#22d3ee]/40 text-[#22d3ee] text-sm font-semibold px-6 py-3 rounded-full hover:border-[#22d3ee] hover:bg-[#22d3ee]/10 transition-colors duration-200 cursor-pointer"
-            >
-              See All Events <ArrowRight />
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* ── REVIEWS ── */}
       <section className="px-4 sm:px-6 lg:px-8 py-16">
         <div className="max-w-6xl mx-auto">
@@ -686,7 +565,7 @@ export default function Home() {
 
           <div className="mt-8 text-center">
             <a
-              href="https://maps.app.goo.gl/collectors-cove-salisbury"
+              href="https://www.google.com/search?q=collectors+cove#lrd=0x8853f30f20920ef9:0x5aa28f50242e5ef7,1,,,,"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 border border-[#22d3ee]/40 text-[#22d3ee] text-sm font-semibold px-6 py-3 rounded-full hover:border-[#22d3ee] hover:bg-[#22d3ee]/10 transition-colors duration-200 cursor-pointer"
