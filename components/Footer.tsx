@@ -8,7 +8,7 @@ export default function Footer() {
               Collector&apos;s Cove
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Salisbury&apos;s premier destination for trading cards, collectibles,
+              North Carolina&apos;s premier destination for trading cards, collectibles,
               video games, and more. 20,000 sq ft of finds under one roof.
             </p>
           </div>

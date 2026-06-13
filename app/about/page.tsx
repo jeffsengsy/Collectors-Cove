@@ -19,7 +19,7 @@ export default function AboutPage() {
             About the Shop
           </h1>
           <p className="text-gray-400 text-lg max-w-2xl">
-            Collector&apos;s Cove is Salisbury&apos;s largest hobby destination — a
+            Collector&apos;s Cove is North Carolina&apos;s largest hobby destination — a
             20,000 square foot retail space home to multiple independent vendors
             specializing in trading cards, video games, toys, and collectibles.
           </p>
