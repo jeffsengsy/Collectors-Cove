@@ -430,11 +430,11 @@ export default function Home() {
             <div className="relative z-10 grid grid-cols-1 sm:grid-cols-[auto_1fr_auto] items-center gap-6 p-6 sm:p-8">
 
               {/* Prize photo */}
-              <div className="relative w-full sm:w-36 h-48 sm:h-36 rounded-2xl overflow-hidden shrink-0">
+              <div className="relative w-full sm:w-36 aspect-square sm:aspect-auto sm:h-36 rounded-2xl overflow-hidden shrink-0">
                 <Image
                   src="/images/store/friday-giveaway.jpg"
                   fill
-                  className="object-cover object-top"
+                  className="object-cover object-center"
                   alt="Example Friday giveaway prize — gold Mega Charizard X ex card"
                   sizes="(max-width: 640px) 100vw, 144px"
                 />
