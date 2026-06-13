@@ -10,6 +10,12 @@ body {
   color: var(--foreground);
 }
 
+/* Disable iOS Safari auto-detected data links (addresses, phone numbers, dates) */
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
 @keyframes float-glow {
   0%, 100% { opacity: 0.6; transform: scale(1); }
   50% { opacity: 1; transform: scale(1.04); }

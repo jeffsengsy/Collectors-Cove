@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   title: "Collector's Cove — Salisbury, NC",
   description:
     "20,000 sq ft of Pokémon TCG, One Piece TCG, Magic: The Gathering, Sports Cards, Video Games, and Collectibles in Salisbury, NC. Visit us at 322 S Main St.",
+  other: {
+    "format-detection": "telephone=no, date=no, address=no, email=no",
+  },
 };
 
 export default function RootLayout({
