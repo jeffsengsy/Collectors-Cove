@@ -7,6 +7,9 @@ const ROW_1 = [
   { src: "/images/store/exterior.jpg",   alt: "Collector's Cove storefront on S Main St, Salisbury NC" },
   { src: "/images/store/store-3.webp",   alt: "Inside Collector's Cove" },
   { src: "/images/store/store-5.webp",   alt: "Inside Collector's Cove" },
+  { src: "/images/store/nick-1.jpg",     alt: "Inside Collector's Cove" },
+  { src: "/images/store/nick-2.jpg",     alt: "Inside Collector's Cove" },
+  { src: "/images/store/nick-3.jpg",     alt: "Inside Collector's Cove" },
 ];
 
 const ROW_2 = [
@@ -14,6 +17,9 @@ const ROW_2 = [
   { src: "/images/store/video-games.jpg", alt: "Retro video game wall at Collector's Cove" },
   { src: "/images/store/store-4.webp",    alt: "Inside Collector's Cove" },
   { src: "/images/store/store-6.webp",    alt: "Inside Collector's Cove" },
+  { src: "/images/store/nick-4.jpg",      alt: "Inside Collector's Cove" },
+  { src: "/images/store/nick-5.jpg",      alt: "Inside Collector's Cove" },
+  { src: "/images/store/nick-6.jpg",      alt: "Inside Collector's Cove" },
 ];
 
 function CarouselRow({
